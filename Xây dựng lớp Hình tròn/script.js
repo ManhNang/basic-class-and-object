@@ -13,8 +13,8 @@ class Circle {
     }
 }
 
-let circle = new Circle(2, "red");
+let circle = new Circle(2);
 console.log("Radius: " + circle.getRadius() + " |Area: " + circle.getArea());
 
-let circle1 = new Circle(2.582, "blue");
+let circle1 = new Circle(2.582);
 console.log("Radius: " + circle1.getRadius() + " |Area: " + circle1.getArea());
