@@ -1,0 +1,22 @@
+Console.log 3 thiết bị:
+SmartDevice {
+  deviceId: '7cd7cd95-91cf-47c2-ac3a-30765409a544',
+  deviceName: 'Đèn phòng khách',
+  type: 'Light',
+  isOn: false,
+  battery: 100
+}
+SmartDevice {
+  deviceId: 'caa49552-a163-4434-acab-ab670456511b',
+  deviceName: 'Điều hòa phòng ngủ',
+  type: 'AirConditioner',
+  isOn: false,
+  battery: 100
+}
+SmartDevice {
+  deviceId: 'b397a3a8-1207-4740-a784-994cc96f9b9e',
+  deviceName: 'Đèn ô tô',
+  type: 'Light',
+  isOn: false,
+  battery: 100
+}
