@@ -1,6 +1,7 @@
 class Circle {
     constructor(radius){
         this.radius = radius;
+        this.color = "white";
     }
 
     getRadius(){
