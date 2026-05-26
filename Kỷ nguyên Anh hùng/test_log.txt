@@ -1,0 +1,20 @@
+Base Case:
+let arthur = new Hero("arthur", 1000, 85);
+let valhein = new Hero("valhein", 800, 100);
+for(let i = 0; i < 12; i++){
+    arthur.attack(valhein);
+}
+
+Console.log:
+arthur tấn công valhein. valhein còn 715 HP.
+arthur tấn công valhein. valhein còn 630 HP.
+arthur tấn công valhein. valhein còn 545 HP.
+arthur tấn công valhein. valhein còn 460 HP.
+arthur tấn công valhein. valhein còn 375 HP.
+arthur tấn công valhein. valhein còn 290 HP.
+arthur tấn công valhein. valhein còn 205 HP.
+arthur tấn công valhein. valhein còn 120 HP.
+arthur tấn công valhein. valhein còn 35 HP.
+arthur tấn công valhein. valhein còn 0 HP.
+arthur tấn công valhein. valhein còn 0 HP.
+arthur tấn công valhein. valhein còn 0 HP.
