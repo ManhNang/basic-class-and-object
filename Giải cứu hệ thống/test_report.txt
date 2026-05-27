@@ -1,0 +1,16 @@
+function randomDrones(quantity){
+    for (let i = 0; i < quantity; i++) {
+        let randomId = "dr_" + crypto.randomUUID();;
+        let randomBattery = Math.floor(Math.random() * 91) + 10;
+        let randomStatus = Math.random() > 0.3 ? "available" : "busy";
+        addDrone(new Drone(randomId, randomBattery, randomStatus));
+    }
+}
+Base 20 case test random:
+randomDrones(20);
+
+Lần gọi 1: Đổi hết drone status available sang delivering
+dispatchOrder();
+
+Lần gọi 2: Không còn drone status available
+dispatchOrder();
