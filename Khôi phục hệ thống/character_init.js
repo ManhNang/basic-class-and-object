@@ -3,7 +3,7 @@
  * Vấn đề: Khởi tạo thủ công, dễ quên thuộc tính, trạng thái không đồng nhất.
  */
 class Character{
-    constructor(classType, name = "Ẩn danh"){
+    constructor(name = "Ẩn danh", classType = "Farmer"){
         this.name = name;
         this.classType = classType;
         this.level = 1;
@@ -13,9 +13,9 @@ class Character{
     }
 }
 
-let player1 = new Character("Hacker", "Neo");
-let player2 = new Character( "Gunner", "Trinity");
-let player3 = new Character("Scammer");
+let player1 = new Character("Neo", "Hacker");
+let player2 = new Character("Trinity", "Gunner");
+let player3 = new Character();
 
 console.log("Thông tin Player 1:", player1);
 console.log("Thông tin Player 2:", player2);

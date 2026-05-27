@@ -1,4 +1,4 @@
-Console.log:
+Console.log player1 và player2 khai báo đầy đủ name và classType:
 
 Thông tin Player 1: Character {
   name: 'Neo',
@@ -16,9 +16,12 @@ Thông tin Player 2: Character {
   isAlive: true,
   inventory: []
 }
+
+Console.log player3 không khai báo name và classType:
+
 Thông tin Player 3: Character {
   name: 'Ẩn danh',
-  classType: 'Scammer',
+  classType: 'Farmer',
   level: 1,
   hp: 100,
   isAlive: true,
