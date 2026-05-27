@@ -1,0 +1,41 @@
+Mặc định status 3 vehicle là Active
+Log:
+Vehicle {
+  id: 'V01',
+  driverName: 'Nguyen Van A',
+  vehicleType: 'Motorbike',
+  status: 'Active'
+}
+Vehicle {
+  id: 'V02',
+  driverName: 'Tran Thi B',
+  vehicleType: 'Bike',
+  status: 'Active'
+}
+Vehicle {
+  id: 'V03',
+  driverName: 'Dang Van C',
+  vehicleType: 'Car',
+  status: 'Active'
+}
+
+Sau khi thay đổi status vehicle2
+Log:
+Vehicle {
+  id: 'V01',
+  driverName: 'Nguyen Van A',
+  vehicleType: 'Motorbike',
+  status: 'Active'
+}
+Vehicle {
+  id: 'V02',
+  driverName: 'Tran Thi B',
+  vehicleType: 'Bike',
+  status: 'Maintenance'
+}
+Vehicle {
+  id: 'V03',
+  driverName: 'Dang Van C',
+  vehicleType: 'Car',
+  status: 'Active'
+}
