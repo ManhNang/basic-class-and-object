@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="1368px" height="768px" style="border: 1px solid black;">
+    </canvas>
+    <script>
+        class Rectangle {
+            constructor(w, l){
+                this.w = w;
+                this.l = l;
+            }
+
+            calculateS(){
+                return this.l * this.w;
+            }
+
+            calculateC(){
+                return (this.l + this.w) * 2;
+            }
+
+            draw(){
+                const ctx = document.getElementById("myCanvas").getContext("2d");
+                ctx.beginPath();
+                ctx.fillStyle = "red";
+                ctx.fillRect(500, 300, this.w, this.l);
+            }
+        }
+
+        let rectangle = new Rectangle(400, 300);
+        rectangle.draw();
+    </script>
+</body>
+</html>
