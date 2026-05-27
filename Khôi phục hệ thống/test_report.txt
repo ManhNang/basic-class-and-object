@@ -1,0 +1,26 @@
+Console.log:
+
+Thông tin Player 1: Character {
+  name: 'Neo',
+  classType: 'Hacker',
+  level: 1,
+  hp: 100,
+  isAlive: true,
+  inventory: []
+}
+Thông tin Player 2: Character {
+  name: 'Trinity',
+  classType: 'Gunner',
+  level: 1,
+  hp: 100,
+  isAlive: true,
+  inventory: []
+}
+Thông tin Player 3: Character {
+  name: 'Ẩn danh',
+  classType: 'Scammer',
+  level: 1,
+  hp: 100,
+  isAlive: true,
+  inventory: []
+}
