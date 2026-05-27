@@ -13,8 +13,8 @@ class Car{
         this.y = y;
         this.width = 70;
         this.height = 40;
-        this.normalSpeed = 0.5;
-        this.boostSpeed = 3;
+        this.normalSpeed = 1;
+        this.boostSpeed = 2;
         this.speed = this.normalSpeed;
         this.direction = "UP";
 
@@ -154,8 +154,8 @@ function gameLoop(){
     requestAnimationFrame(gameLoop);
 }
 
-createGameObject("obstacle", 10);
-createGameObject("reward", 20);
+createGameObject("obstacle", 5);
+createGameObject("reward", 10);
 car.img.onload = () => {
     gameLoop();
 }
